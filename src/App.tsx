@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import FavouritesPage from "./pages/FavouritesPage";
-import Navigation from "./components/Navigation";
+import HomePage from "./pages/HomePage/HomePage";
+import FavouritesPage from "./pages/FavouritesPage/FavouritesPage";
+import Navigation from "./components/Navigation/Navigation";
 
 const App = () => {
   return (
